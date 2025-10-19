@@ -1,0 +1,10 @@
+[phases.setup]
+pkgs = ["python311", "python311Packages.pip", "ta-lib"]
+
+[phases.install]
+cmds = [
+  "python -m pip install --no-cache-dir -r backend/requirements.txt"
+]
+
+[start]
+cmd = "gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120"

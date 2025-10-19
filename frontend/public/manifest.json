@@ -1,0 +1,56 @@
+{
+  "name": "Traydr - AI Forex Trading",
+  "short_name": "Traydr",
+  "description": "Professional forex signal generation powered by AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "business"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live Signals",
+      "url": "/",
+      "description": "View live forex signals"
+    },
+    {
+      "name": "Signal History",
+      "url": "/history",
+      "description": "Browse signal history"
+    },
+    {
+      "name": "Trading Assistant",
+      "url": "/chat",
+      "description": "Chat with AI assistant"
+    }
+  ]
+}
