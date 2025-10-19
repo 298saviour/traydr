@@ -8,7 +8,7 @@ import logging
 from typing import Dict, Tuple, Any, Optional
 
 from alpha_vantage_provider import AlphaVantageProvider
-from fx_candle_fetcher import FXCandleFetcher
+from backend.fx_candle_fetcher import FXCandleFetcher
 
 
 ALLOWED_INDICATORS = {"rsi", "macd", "ema", "bbands", "atr", "vwap", "obv"}
